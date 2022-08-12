@@ -1,0 +1,140 @@
+/**
+* Template Name: Nova - v1.0.0
+* Template URL: https://bootstrapmade.com/nova-bootstrap-business-template/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
+
+/*--------------------------------------------------------------
+# Set main reusable colors and fonts using CSS variables
+# Learn more about CSS variables at https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
+--------------------------------------------------------------*/
+/* Fonts */
+:root {
+  --font-default: Open Sans, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, Liberation Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  --font-primary: Montserrat, sans-serif;
+  --font-secondary: Raleway, sans-serif;
+}
+
+/* Colors */
+:root {
+  --color-default: #2b180d;
+  --color-primary: #56b8e6;
+  --color-secondary: #1b2f45;
+}
+
+/* Smooth scroll behavior */
+:root {
+  scroll-behavior: smooth;
+}
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+  font-family: var(--font-default);
+  color: var(--color-default);
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #82cbed;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-primary);
+}
+
+.my-container {
+  display:flex;
+  height: 100vh;
+  width: 100%;
+}
+
+.sidebar {
+  background-color: var(--color-secondary);
+  height: 100vh;
+  width: 20%;
+  padding: 1rem;
+  color: white;
+  font-weight: 500;
+}
+
+.logo {
+  
+  font-weight: 700;
+  font-style: bold;
+}
+
+.logo, .logout {
+  display: flex;
+  height: 20%;
+  font-family: var(--font-primary);
+}
+
+.logout {
+  align-items: flex-end;
+}
+
+.tabs {
+  height: 60%;
+  font-family: var(--font-primary);
+}
+
+.main-content {
+  width: 75%;
+  height: 100vh;
+  display: flex;
+  padding: 2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.steps-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.user-details-steps {
+  width: 48%;
+  margin-top: 5rem;
+  box-shadow: 0 0 10px 1px rgba(120, 29, 220, .2);
+  height: fit-content;
+  padding: 1rem;
+}
+
+.user-details-steps:hover {
+  transform: scale(1.1);
+}
+
+.start-diagnosis {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 100%;
+  font-size: 3rem;
+}
+
+.start-diagnosis a {
+  padding:0 1rem;
+  border-radius: 10px;
+box-shadow: 0 0 10px 1px rgba(120, 29, 220, .2);
+}
+
+.start-diagnosis a:hover {
+  font-size: 3.1rem; 
+}

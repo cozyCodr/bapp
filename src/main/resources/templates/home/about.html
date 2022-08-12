@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>More Info</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link th:href="@{/vendor/bootstrap/css/bootstrap.min.css}" rel="stylesheet">
+  <link th:href="@{/vendor/bootstrap-icons/bootstrap-icons.css}" rel="stylesheet">
+  <link th:href="@{/vendor/aos/aos.css}" rel="stylesheet">
+  <link th:href="@{/vendor/glightbox/css/glightbox.min.css}" rel="stylesheet">
+  <link th:href="@{/vendor/swiper/swiper-bundle.min.css}" rel="stylesheet">
+  <link th:href="@{/vendor/remixicon/remixicon.css}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link th:href="@{/css/main.css}" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Nova - v1.0.0
+  * Template URL: https://bootstrapmade.com/nova-bootstrap-business-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="page-about">
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="#" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="d-flex align-items-center">Bipolar Help</h1>
+      </a>
+
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a th:href="@{/}" >Home</a></li>
+          <li><a th:href="@{/treatment}">Treatment</a></li>
+          <li><a th:href="@{/readmore}" class="active">More Info</a></li>
+          <li class="dropdown"><a href="#"><span>Account</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a th:href="@{/u/create-account}">Create Account</a></li>
+              <li><a th:href="@{/u/login}">Sign In</a></li>
+              <li><a th:href="@{/a/login}">Health Personnel</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/about-header.jpg');">
+      <div class="container position-relative d-flex flex-column align-items-center">
+
+        <h2>More Info</h2>
+        <ol>
+          <li><a href="#">Home</a></li>
+          <li>More info</li>
+        </ol>
+
+      </div>
+    </div><!-- End Breadcrumbs -->
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <!-- First Video -->
+        <div class="row gy-4" data-aos="fade-up">
+          <div class="col-lg-4">
+            <iframe width="400" height="230" src="https://www.youtube.com/embed/_8C3MHvnhfo" title="Bipolar Disorder Medication"
+              frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+          <div class="col-lg-8">
+            <div class="content ps-lg-5">
+              <h3>Bipolar Disorder Medication</h3>
+              <p>
+                Treatment for people with Bipolar Disorder includes therapy and medication. Working with a medical provider can help
+                people take control of their lives again.
+              </p>
+              <p>Credit: <a href="https://www.youtube.com/c/PsychHub">PsychHub</a></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Second Video -->
+        <div class="row gy-4" data-aos="fade-up">
+          <div class="col-lg-4">
+            <iframe width="400" height="230" src="https://www.youtube.com/embed/gR4-ittuZi8"
+              title="Finding balance in bipolar | Ellen Forney | TEDxSeattle" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+          <div class="col-lg-8">
+            <div class="content ps-lg-5">
+              <h3>10 Signs of Bipolar Disorder</h3>
+              <p>
+                Ellen Forney is a passionate storyteller and artist who turned her bipolar diagnosis into a platform of hope for anyone
+                struggling with mental health issues. In this moving and generous talk, Ellen uses both words and pictures — her own
+                comics —to share the story of how she maintained her creativity while managing her illness and shares the system she
+                developed for achieving balance and keeping it.
+              </p>
+              <p>Credit: <a href="https://www.youtube.com/user/TEDxTalks">TEDxTalks</a></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Third Video -->
+        <div class="row gy-4" data-aos="fade-up">
+          <div class="col-lg-4">
+            <iframe width="400" height="230" src="https://www.youtube.com/embed/G_swth2iSFI" title="10 Signs of Bipolar Disorder"
+              frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+          <div class="col-lg-8">
+            <div class="content ps-lg-5">
+              <h3>Bipolar Disorder Medication</h3>
+              <p>
+                Bipolar disorder, also called ‘manic depression’, is a mood disorder defined by periods of intense, heightened emotion
+                called mood episodes.
+                
+                The three types of mood episodes are manic, hypomanic (less severe manic episodes), and depressive. With that said, here
+                are 10 signs of bipolar disorder. Also, this video is meant to raise awareness on the topic of bipolar disorder. Do not
+                self diagnose using this video.
+              </p>
+              <p>Credit: <a href="https://www.youtube.com/c/Psych2go">Psych2go</a></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Fourth Video -->
+        <div class="row gy-4" data-aos="fade-up">
+          <div class="col-lg-4">
+            <iframe width="400" height="230" src="https://www.youtube.com/embed/pXEgzMv0Lqw" title="Living with Bipolar Disorder"
+              frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+          <div class="col-lg-8">
+            <div class="content ps-lg-5">
+              <h3>Living with Bipolar Disorder</h3>
+              <p>
+                Bipolar Disorder is a chronic and complex mental health disorder that causes extreme mood swings, including periods of
+                extreme lows (depression) and extreme highs (mania or hypomania). In this video, we will discuss what Bipolar Disorder
+                is, the symptoms of manic, hypomanic, and depressive episodes, and comparing the difference between Bipolar Disorder
+                Type 1 and Type 2. Also, we will discuss the biological aspect of Bipolar Disorder by introducing two key hormones -
+                Serotonin and Dopamine.
+              </p>
+              <p>Credit: <a href="https://www.youtube.com/c/DemystifyingMedicine">DemystifyingMedicine</a></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="footer-content">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-info">
+            <a href="#" class="logo d-flex align-items-center">
+              <span>BipolarHelper_</span>
+            </a>
+            <p>We are a service established to help those with bipolar-like symptoms and bipolar itself</p>
+
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bi bi-dash"></i> <a th:href="@{/landing}">Home</a></li>
+              <li><i class="bi bi-dash"></i> <a th:href="@{/treatment}">Treatment</a></li>
+              <li><i class="bi bi-dash"></i> <a th:href="@{/readmore}">More Info</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-legal">
+      <div class="container">
+        <div class="copyright">
+          &copy; Copyright <strong><span>BipolarHelper_</span></strong>. All Rights Reserved
+        </div>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+  <!-- End Footer -->
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script th:src="@{/vendor/bootstrap/js/bootstrap.bundle.min.js}"></script>
+  <script th:src="@{/vendor/aos/aos.js}"></script>
+  <script th:src="@{/vendor/glightbox/js/glightbox.min.js}"></script>
+  <script th:src="@{/vendor/swiper/swiper-bundle.min.js}"></script>
+  <script th:src="@{/vendor/isotope-layout/isotope.pkgd.min.j}"></script>
+  <script th:src="@{/vendor/php-email-form/validate.js}"></script>
+
+  <!-- Template Main JS File -->
+  <script th:src="@{/js/main.js}"></script>
+
+</body>
+
+</html>

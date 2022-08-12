@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://babaserver-007.database.windows.net:1433;database=bipolardb;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    username: babaspace
+    password: Devpass1@.
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      dialect : org.hibernate.dialect.SQLServer2012Dialect
+
+server:
+  port: 9191

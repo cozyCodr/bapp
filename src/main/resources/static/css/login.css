@@ -1,0 +1,49 @@
+:root {
+    --font-default: Open Sans, system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, Liberation Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    --font-primary: Montserrat, sans-serif;
+    --font-secondary: Raleway, sans-serif;
+}
+
+body {
+    font-family: var(--font-default);
+}
+
+.login-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    background-color: aliceblue;
+    padding: 2rem 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 1px rgba(0,0,0,.5);
+    width: 85%;
+}
+
+.form-title {
+    border-bottom: 1px solid rgba(0,0,0,.5);
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+
+.form-title h3 {
+    font-family: var(--font-secondary);
+}
+
+.under-form-text {
+    display: flex;
+    justify-content: center;
+}
+.under-form-text p {
+    color: rgb(255, 255, 255)
+}
+
+.under-form-text a {
+    color: rgb(0, 212, 177)
+}
+
+.under-form-text a:visited {
+    color: rgb(0, 212, 177)
+}
