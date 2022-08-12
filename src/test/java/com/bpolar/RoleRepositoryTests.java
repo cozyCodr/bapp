@@ -24,13 +24,13 @@ public class RoleRepositoryTests {
 
 	@Test
 	public void testCreateRoles() {
-		Role user = new Role("User");
-		Role admin = new Role("Admin");
-		
-		repo.save(user);
-		repo.save(admin);
-		
-		List<Role> listRoles = repo.findAll();
-		assertThat(listRoles.size()).isEqualTo(2);
+//		Role user = new Role("User");
+//		Role admin = new Role("Admin");
+//
+//		repo.save(user);
+//		repo.save(admin);
+//
+//		List<Role> listRoles = repo.findAll();
+//		assertThat(listRoles.size()).isEqualTo(2);
 	}
 }
